@@ -7,8 +7,10 @@ cd build
 mingw32-make >> build.log 2>>&1
 echo.
 echo Executing output program...
+echo.
 cd bin
 start "Output from output process" cmd /c ".\output.exe & pause"
 cd ..\..
+echo.
 echo Done
 echo.
