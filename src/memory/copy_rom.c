@@ -1,0 +1,1 @@
+// Copies the ROM data into the emulator's memory at 0x200
