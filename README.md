@@ -1,4 +1,1 @@
-CHIP-8/COSMAC VIP interpreter I wrote in C
-Compiles on Windows AMD64 with Make and GCC
-Dependencies:
-Must have SDL3 devel with mingw32 package in C:/deps/SDL3 and added to PATH
+CHIP-8/COSMAC VIP Emulator I wrote in C. Compiles on Windows AMD64 with Make and GCC. Dependencies: Must have SDL3 devel with mingw32 package in C:/deps/SDL3 and added to PATH
