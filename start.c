@@ -4,8 +4,12 @@
 // Start cpu, gpu, input, and timers
 
 #include <stdio.h>
+#include "cpu.h"
+#include "gpu.h"
 
 int main() {
-    printf("Hello, World!\n");
+    // Start on seperate threads
+    startCpu();
+    startGpu();
     return 0;
 }
